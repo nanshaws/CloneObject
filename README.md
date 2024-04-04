@@ -11,15 +11,15 @@ java复制对象，相同字段值的赋值  ，对象包含json，等等
 
 **本项目本来目录**
 
-![image-20240404235902985](./../img/image-20240404235902985.png)
+![image-20240404235902985](./img/image-20240404235902985.png)
 
 **JsonClone类的用法：**
 
-![image-20240404231620117](./../img/image-20240404231620117.png)
+![image-20240404231620117](./img/image-20240404231620117.png)
 
 **ObjectClone类的用法：**
 
-![image-20240404232056360](./../img/image-20240404232056360.png)
+![image-20240404232056360](./img/image-20240404232056360.png)
 
 **FileClone类和PathUtils用法：**
 
@@ -37,11 +37,11 @@ File nextfile = PathUtils.findByNameReturnFile("t2.txt");
 FileClone.cloneFile(prefile,nextfile);
 ```
 
-![image-20240404235415798](./../img/image-20240404235415798.png)
+![image-20240404235415798](./img/image-20240404235415798.png)
 
 可以直接复制过去
 
-![image-20240404235502699](./../img/image-20240404235502699.png)
+![image-20240404235502699](./img/image-20240404235502699.png)
 
 ```java
 PathUtils.getResourceFile(name)方法是为了直接获取resource里面的文件的
